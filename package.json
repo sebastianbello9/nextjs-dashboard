@@ -15,6 +15,8 @@
     "next-auth": "5.0.0-beta.25",
     "postcss": "8.5.1",
     "postgres": "^3.4.6",
+    "posthog-js": "^1.295.0",
+    "posthog-node": "^5.11.2",
     "react": "latest",
     "react-dom": "latest",
     "tailwindcss": "3.4.17",
@@ -31,6 +33,7 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "bcrypt",
+      "core-js",
       "sharp"
     ]
   }
